@@ -1,12 +1,133 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>KJung Lab</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KJung Lab @ GIST for Neurobiological Intelligence</title>
+ <style>
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333333;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      background-color: #ffffff;
+      border-bottom: 1px solid #ddd;
+    }
+    .lab-title {
+      display: flex;
+      flex-direction: column;
+    }
+    .lab-title h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .lab-title p {
+      margin: 0;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .lab-logo {
+      height: 60px;
+      margin-right: 20px;
+    }
+    .header img {
+      height: 60px;
+      margin-right: 20px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background-color: white;
+      border-bottom: 1px solid #ccc;
+      padding: 12px 0;
+      font-size: 0.95rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #222;
+    }
+    nav a.active, nav a:hover {
+      font-weight: bold;
+      color: #000;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 1.0rem;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to KJung Lab</h1>
-  <p>This is a test.</p>
+  <div class="header">
+    <img src="\home\gist_logo.jpg" alt="GIST Logo">
+    <div class="lab-title">
+      <h1>KJung Lab @ GIST</h1>
+      <p>for Neurobiological Intelligence</p>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#ourteam">Our Team</a>
+    <a href="#research">Research</a>
+    <a href="#publications" class="active">Publications</a>
+    <a href="#resources">Resource</a>
+    <a href="#photos">Lab Photos</a>
+    <a href="#news">Lab News</a>
+    <a href="#positions">Open Positions</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>We study the principles of Neurobiological Intelligence by investigating neural dynamics of cell types and circuits. Our lab integrates behavioral paradigms, imaging, optogenetics, molecular biology, and computational modeling to reveal how motivation, memory, and behavior interact at the circuit level.</p>
+    </section>
+
+    <section id="positions">
+      <h2>Open Positions</h2>
+      <p>We are recruiting motivated students and postdocs! Please email a brief description of your research interests and your CV to Kanghoon Jung (kanghoon.jung@alleninstitute.org). Informal inquiries welcome!</p>
+    </section>
+
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <ul>
+        <li>Jung K, Krüssel S, et al. (2024). Dopamine-mediated formation of a memory module in the nucleus accumbens for goal-directed navigation. <em>Nature Neuroscience</em>.</li>
+        <li>Jung K, Kralik JD. (2013). Get it while it's hot: a peak-first bias in self-generated choice order in rhesus macaques. <em>PLoS One</em>.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="address">
+      Gwangju Institute of Science and Technology (GIST), School of Life Sciences – KJung Lab for Neurobiological Intelligence  |  61005, 123 Cheomdangwagi-ro, Buk-gu, Gwangju, Republic of Korea
+    </div>
+    <div>
+      &copy; 2025 <span class="lab-name">KJung Lab @ GIST</span>. All Rights Reserved.
+      <a href="#map">Find Us</a>
+    </div>
+  </footer>
 </body>
 </html>
+
+<script>
+  // Add active class to the current nav link
+  document.querySelectorAll('nav a').forEach(link => {
+    if (link.getAttribute('href') === window.location.hash) {
+      link.classList.add('active');
+    }
+  });
