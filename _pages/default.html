@@ -1,0 +1,89 @@
+<!-- index.html 예시 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  <meta charset="UTF-8">
+  <title>Open Positions | KJung Lab</title>
+  <style>
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      margin: 0;
+      padding: 40px 0;
+      background-color: #fff;
+      color: #222;
+    }
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #1b3e85;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+      font-size: 1.2rem;
+      z-index: 999;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .container {
+      width: 70%;
+      margin: 100px auto 0 auto;
+    }
+    h1 {
+      color: #1b3e85;
+      border-bottom: 1px dashed #ccc;
+      padding-bottom: 10px;
+    }
+    h2 {
+      color: #1b3e85;
+    }
+    h3 {
+      color: #b4004e;
+    }
+    p, li {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+    ul {
+      margin-bottom: 20px;
+    }
+    a {
+      color: #b4004e;
+    }
+  </style>
+</head>
+
+<div id="header-placeholder"></div>
+  <div class="container">
+<body>
+
+
+<main>
+  <!-- 페이지별 컨텐츠 -->
+</main>
+
+<div id="footer-placeholder"></div>
+
+<script>
+  // 헤더 삽입
+  fetch('header.html')
+    .then(response => response.text())
+    .then(data => document.getElementById('header-placeholder').innerHTML = data);
+
+    // 푸터 삽입
+    fetch('footer.html')
+    .then(response => response.text())
+    .then(data => document.querySelector('footer').innerHTML = data); 
+
+  // active class 설정
+  window.addEventListener("DOMContentLoaded", () => {
+    const path = location.pathname.split("/").pop();
+    document.querySelectorAll("nav a").forEach(link => {
+      if (link.getAttribute("href") === path) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+</body>
+</html>

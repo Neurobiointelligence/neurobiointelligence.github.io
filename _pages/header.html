@@ -1,0 +1,94 @@
+<!-- header.html -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KJung Lab @ GIST for Neurobiological Intelligence</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      margin: 0;
+      padding: 40px 0;
+      background-color: transparent;
+      color: #1b3e85;
+    }
+    .header {
+      display: flex;
+      align-items: left;
+      justify-content: left;
+      margin-left: 40px;
+      padding: 20px 20px;
+      background-color: transparent;
+      /* border-bottom: 1px solid #ddd; */
+    }
+    .lab-title {
+      display: flex;
+      flex-direction: column;
+      margin-right: 20px;
+
+    }
+    .lab-title h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #1b3e85;
+    }
+    .lab-title p {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #242424;
+      margin-right: 20px;
+    }
+    .lab-logo {
+      height: 70px;
+      margin-right: 20px;
+    }
+    nav {
+      margin-right: 60px;
+      display: flex;
+      justify-content: right;
+      gap: 30px;
+      background-color: transparent;
+      /* border-bottom: 1px solid #ccc; */
+      padding: 12px 0;
+      font-size: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #242424;
+    }
+    nav a.active, nav a:hover {
+      font-weight: bold;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="/_images\Lab_logo_242424.png" alt="Lab Logo" class="lab-logo">
+    <div class="lab-title">
+      <h1>KJung Lab @ GIST</h1>
+      <p>for Neurobiological Intelligence</p>
+    </div>
+  </div>
+
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="members.html">MEMBERS</a>
+    <a href="research.html">RESEARCH</a>
+    <a href="publications.html">PUBLICATIONS</a>
+    <!-- <a href="resources.html">Resource</a> -->
+    <!-- <a href="photos.html">Lab Photos</a> -->
+    <a href="news.html">NEWS</a>
+    <a href="openpositions.html">OPEN POSITIONS</a>
+    <a href="contact.html">CONTACT</a>
+  </nav>
+
+<script>
+  // Add active class to the current nav link
+  document.querySelectorAll('nav a').forEach(link => {
+    if (link.getAttribute('href') === window.location.hash) {
+      link.classList.add('active');
+    }
+  });
