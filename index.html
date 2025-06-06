@@ -19,7 +19,7 @@
     .hero {
       position: relative;
       height: 45vh;
-      background: url('\_images\home.png') no-repeat center center/cover;
+      background: url('_images/home.png') no-repeat center center/cover;
       display: flex;
       justify-content: center;
       align-items: flex-end;
@@ -73,12 +73,12 @@
 
   <script>
     // 헤더 삽입
-    fetch('/_pages/header.html')
+    fetch('_pages/header.html')
       .then(response => response.text())
       .then(data => document.getElementById('header-placeholder').innerHTML = data);
 
     // 푸터 삽입
-    fetch('/_pages/footer.html')
+    fetch('_pages/footer.html')
       .then(response => response.text())
       .then(data => document.getElementById('footer-placeholder').innerHTML = data);
 
