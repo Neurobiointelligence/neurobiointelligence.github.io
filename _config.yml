@@ -1,6 +1,96 @@
-title: KJung Lab @ GIST
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: KJung Lab 
 email: kanghoon.jung@alleninstitute.org
 description: Homepage for the Neurobiological Intelligence Lab
+footer_text: 
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 baseurl: ""
 url: "https://neurobiointelligence.github.io"
-theme: minima
+# theme: minima
+last_updated: false # set to true if you want to display last updated in the footer
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+back_to_top: true # set to false to disable the back to top button
+languages: ["en", "ko"]
+
+twitter_username: kanghoonj
+github_username:  kanghoonj
+plugins:
+  - jekyll-feed
+
+exclude:
+  - neurobiointelligence.github.io/404.html
+# permalink: /:lang/:title.html
+# markdown: kramdown
+# highlighter: rouge
+
+# # -----------------------------------------------------------------------------
+# # Theme
+# # -----------------------------------------------------------------------------
+
+# # repo color theme
+# repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+# repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+# repo_trophies:
+#   enabled: true
+#   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
+#   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+
+# # Dimensions
+# max_width: 930px
+
+# # Sitemap settings
+# defaults:
+#   - scope:
+#       path: "assets"
+#     values:
+#       sitemap: false
+
+
+# # -----------------------------------------------------------------------------
+# # Layout
+# # -----------------------------------------------------------------------------
+
+# navbar_fixed: true
+# footer_fixed: true
+# search_enabled: true
+# socials_in_search: true
+# posts_in_search: true
+# bib_search: true
+
+
+
+# # -----------------------------------------------------------------------------
+# # Responsive WebP Images
+# # -----------------------------------------------------------------------------
+
+# # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
+# #   convert -version
+# imagemagick:
+#   enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+#   widths:
+#     - 480
+#     - 800
+#     - 1400
+#   input_directories:
+#     - Images/
+#   input_formats:
+#     - ".jpg"
+#     - ".jpeg"
+#     - ".png"
+#     - ".tiff"
+#     - ".gif"
+#   output_formats:
+#     webp: "-quality 85"
+
+# # Lazy loading images
+# #   If you enable lazy loading, all images will add the loading="lazy" attribute.
+# #   This will make your site load faster, but it may not be supported in all browsers.
+# #   You can also set loading="" to other values for specific images to override the default behavior.
+# #   Options: "auto", "eager", "lazy"
+# #   See https://web.dev/browser-level-image-lazy-loading/ for more information.
+# lazy_loading_images: true # enables lazy loading of images (recommended)
