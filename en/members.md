@@ -15,7 +15,7 @@ hero_content: |
   <div class="member-entry">
     <h2>KANGHOON JUNG</h2>
     <div class="member-profile">
-      <img src="/_members/KanghoonJ_photo.jpg" alt="Dr. Kanghoon Jung">
+      <img src="/members/KanghoonJ_photo.jpg" alt="Dr. Kanghoon Jung">
       <div class="member-info">
         <p>Principal Investigator</p>
         <p>
