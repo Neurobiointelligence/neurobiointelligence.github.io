@@ -10,10 +10,12 @@ hero_content: |
 ---
 
 <section class="content-section">
-<div class="container">
-  <div class="news">
-  <h3>Sep 2025 – NeuroBiological Intelligence (NBI) Lab will open</h3>
-  <p>I am moving to GIST across the Pacific Ocean. Looking forward to it!</p>
+  <div class="container news">
+    <h2 style="text-align: center;">2025</h2>
+    <p>
+      <strong>SEPTEMBER</strong> | We’re excited to announce that the <strong>NeuroBiological Intelligence (NBI) Lab</strong> will officially open at GIST!  
+      Looking forward to the next chapter in decoding intelligence through neuroscience!
+    </p>
+
   </div>
-</div>
 </section>

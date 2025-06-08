@@ -11,7 +11,6 @@ hero_content: |
 
 <section class="content-section">
   <div class="container">
-
   <div class="member-entry">
     <h2>KANGHOON JUNG</h2>
     <div class="member-profile">
