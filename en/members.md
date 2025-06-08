@@ -19,7 +19,7 @@ hero_content: |
       <div class="member-info">
         <p>Principal Investigator</p>
         <p>
-          <a href="/_members/minibio_kj.html">[minibio]</a>
+          <a href="/members/minibio_kj.html">[minibio]</a>
           <a href="https://scholar.google.com/citations?user=EXAMPLE" target="_blank">[Google Scholar]</a>
         </p>
         <p>

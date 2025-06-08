@@ -5,14 +5,14 @@ lang: en
 background_image: images/VTA_DA.png
 hero_content: |
   <p style="font-size: 1.2rem; font-weight: 300; margin-top: 10px;">
-  Exploring neural circuits that shape adaptive behavior.
+  From Molecules to Behavior: Mapping the Brain’s Intelligent Design
   </p>
 ---
 
 <section class="content-section">
   <div class="container">
     <article>
-      <h2>From Neural Circuits to Adaptive Behavior</h2>
+      <h2>Exploring neural circuits that shape adaptive behavior</h2>
       <p>
         Our lab seeks to uncover the principles of <strong>Neurobiological Intelligence</strong> by focusing on the neural dynamics of cells and circuits. We aim to quantitatively analyze how living organisms perceive their environment, form and retrieve memories, and make flexible decisions in response to changing situations—examining these processes at the cellular and circuit levels.
       </p>
