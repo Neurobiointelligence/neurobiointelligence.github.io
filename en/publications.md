@@ -8,7 +8,7 @@ hero_content: |
   Sharing discoveries that illuminate the brain.
   </p>
 ---
-<div class="container">
+<div class="container" style="max-width: 1000px; margin: 0 auto; padding: 0 1rem;">
 <!-- <h1>PUBLICATIONS</h1>  -->
 <p class="note">#equal contribution, *corresponding author</p>
 <div class="pub">
