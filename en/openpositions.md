@@ -53,6 +53,5 @@ hero_content: |
     <h3>광학 이미징</h3>
     <p>초고분해능 혁신 기술 개발: SIM (structured illumination microscopy), PALM/STORM<br>
     세포/조직 이미지 향상 이미지 생성 및 영상 분석</p>
-
-    <!-- <p>📝 <strong>지원 방법</strong>: CV 1부, 자기소개서 1부, 연구실적 (논문/포스터) 목록 1부를 <a href="mailto:kanghoon.jung@alleninstitute.org">이메일 제출</a></p> --> -->
+  <p>📝 <strong>지원 방법</strong>: CV 1부, 자기소개서 1부, 연구실적 (논문/포스터) 목록 1부를 <a href="mailto:kanghoon.jung@alleninstitute.org">이메일 제출</a></p> --> 
 

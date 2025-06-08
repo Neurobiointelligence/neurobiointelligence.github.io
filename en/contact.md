@@ -16,22 +16,18 @@ hero_content: |
       <p style="font-size: 1.3rem; font-weight: bold; color: #4f7ad1"><strong>KJung Lab @ GIST</strong></p>
       <p>Department of Life Sciences</p>
       <p>Gwangju Institute of Science and Technology (GIST)</p>
-      <p>123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea</p>
-    
+      <p>123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea</p>    
     <!-- 공간 추가 -->
     <div style="height: 1.5rem;"></div>
-
       <p>광주과학기술원(GIST) 생명과학과</p>
       <p>(61005) 광주광역시 북구 첨단과기로 123</p>
-
-      <!-- Email icon -->
+    <!-- Email icon -->
       <p>
         <a href="mailto:kanghoon.jung@alleninstitute.org" style="font-size: 1.1rem; text-decoration: none; color: #4f7ad1;">
           ✉️ Email us
         </a>
       </p>
     </div>
-
     <!-- RIGHT: Map -->
     <div style="flex: 1; min-width: 400px;">
       <iframe
@@ -40,6 +36,5 @@ hero_content: |
         style="border:0;" allowfullscreen="" loading="lazy">
       </iframe>
     </div>
-
   </div>
 </section>
