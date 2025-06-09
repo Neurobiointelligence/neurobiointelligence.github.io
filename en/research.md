@@ -60,7 +60,8 @@ hero_content: |
         </p>
       </div>
       <div style="flex: 1; min-width: 280px;">
-        <img src="{{'/images/research_topic_4.jpg' | relative_url }}" alt="tools" style="width: 100%; max-width: 500px;" />
+        <img src="https://via.placeholder.com/400x300" />
+        <!-- <img src="{{'/images/research_topic_4.jpg' | relative_url }}" alt="tools" style="width: 100%; max-width: 500px;" /> -->
       </div>
     </div>
   </div>
