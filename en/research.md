@@ -24,7 +24,7 @@ hero_content: |
         </p>
       </div>
       <div style="flex: 1; min-width: 280px;">
-        <img src="{{'/images/research_topic_1.png' | relative_url }}" alt="navigation circuit" style="width: 100%; max-width: 300px;" />
+        <img src="/images/research_topic_1.png" alt="navigation circuit" style="width: 100%; max-width: 300px;" />
       </div>
     </div>
     <!-- 2. Neural Dynamics -->
