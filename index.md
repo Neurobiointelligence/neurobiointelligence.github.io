@@ -32,8 +32,8 @@ hero_content: |
     RESEARCH
   </a>
 </div>
-
-<!-- Lab Image Banner -->
+<!-- 
+Lab Image Banner 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; margin: 2rem 0;">
   <div style="width: 33.33%; position: relative;">
     <img src="{{ '/images/lab1.jpg' | relative_url }}" alt=""
@@ -50,7 +50,7 @@ hero_content: |
          style="width: 100%; object-fit: cover;"
          onerror="this.outerHTML='<div style=&quot;width:100%;height:200px;display:flex;align-items:center;justify-content:center;background:#ddd;color:#555;font-size:1.2rem;&quot;>lab3</div>'">
   </div>
-</div>
+</div> -->
 
 <!-- Join Us Section -->
 <div style="background-color: #f8f8f8; text-align: center; padding: 4rem 2rem;">
