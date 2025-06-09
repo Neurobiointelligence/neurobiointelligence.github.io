@@ -11,14 +11,10 @@ hero_content: |
 
 <section class="content-section">
   <div class="container">
-
-    <article>
       <h2>Exploring neural circuits that shape adaptive behavior</h2>
       <p>
         Our lab aims to uncover the principles of Neurobiological Intelligence by investigating the neural dynamics of cells and circuits. We quantitatively analyze how organisms perceive their environment and internal states, encode and retrieve memories, and make flexible decisions in changing situations. By examining these adaptive processes at cellular and circuit levels, we seek a <strong>mechanistic understanding of how intelligence emerges from the biology of the brain</strong>.
       </p>
-    </article>
-
     <!-- 1. Memory Navigation -->
     <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 4rem; align-items: center;">
       <div style="flex: 1; min-width: 280px;">
@@ -31,7 +27,6 @@ hero_content: |
         <img src="{{ '/images/research_topic_1.jpg' | relative_url }}" alt="navigation circuit" style="width: 100%; max-width: 300px;" />
       </div>
     </div>
-
     <!-- 2. Neural Dynamics -->
     <div style="display: flex; flex-wrap: wrap; flex-direction: row-reverse; gap: 2rem; margin-bottom: 4rem; align-items: center;">
       <div style="flex: 1; min-width: 280px;">
@@ -44,7 +39,6 @@ hero_content: |
         <img src="{{ '/images/research_topic_2.gif' | relative_url }}" alt="dynamics" style="width: 100%; max-width: 350px;" />
       </div>
     </div>
-
     <!-- 3. Neuromodulators -->
     <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 4rem; align-items: center;">
       <div style="flex: 1; min-width: 280px;">
@@ -57,7 +51,6 @@ hero_content: |
         <img src="{{ '/images/research_topic_3.jpg' | relative_url }}" alt="neuromodulators" style="width: 100%; max-width: 400px;" />
       </div>
     </div>
-
     <!-- 4. Tools -->
     <div style="display: flex; flex-wrap: wrap; flex-direction: row-reverse; gap: 2rem; margin-bottom: 4rem; align-items: center;">
       <div style="flex: 1; min-width: 280px;">
