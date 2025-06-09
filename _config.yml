@@ -24,6 +24,8 @@ plugins:
 
 exclude:
   - neurobiointelligence.github.io/404.html
+
+
 # permalink: /:lang/:title.html
 # markdown: kramdown
 # highlighter: rouge
