@@ -24,7 +24,7 @@ hero_content: |
         </p>
       </div>
       <div style="flex: 1; min-width: 280px;">
-        <img src="/images/research_topic_1.png" alt="navigation circuit" style="width: 100%; max-width: 300px;" />
+        <img src="/images/research_topic_1.png" alt="dynamics" style="width: 100%; max-width: 350px;" />
       </div>
     </div>
     <!-- 2. Neural Dynamics -->
@@ -36,7 +36,7 @@ hero_content: |
         </p>
       </div>
       <div style="flex: 1; min-width: 280px;">
-        <img src="{{'/images/research_topic_2.gif' | relative_url }}" alt="dynamics" style="width: 100%; max-width: 350px;" />
+        <img src="/images/research_topic_2.gif" alt="dynamics" style="width: 100%; max-width: 350px;" />
       </div>
     </div>
     <!-- 3. Neuromodulators -->
@@ -48,7 +48,7 @@ hero_content: |
         </p>
       </div>
       <div style="flex: 1; min-width: 280px;">
-        <img src="{{'/images/research_topic_3.png' | relative_url }}" alt="neuromodulators" style="width: 100%; max-width: 400px;" />
+        <img src="/images/research_topic_3.png" alt="neuromodulators" style="width: 100%; max-width: 400px;" />
       </div>
     </div>
     <!-- 4. Tools -->
@@ -61,7 +61,7 @@ hero_content: |
       </div>
       <div style="flex: 1; min-width: 280px;">
         <!-- <img src="https://via.placeholder.com/400x300" /> -->
-        <img src="{{'/images/research_topic_4.png' | relative_url }}" alt="tools" style="width: 100%; max-width: 500px;" />
+        <img src="/images/research_topic_4.png" alt="tools" style="width: 100%; max-width: 500px;" />
       </div>
     </div>
   </div>
