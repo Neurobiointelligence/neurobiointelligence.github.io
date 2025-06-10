@@ -2,7 +2,7 @@
 layout: default
 title: Open Positions
 lang: en
-background_image: images/contact_gist_view.jpg
+background_image: images/ephys_rigs.png
 hero_content: |
   <p style="font-size: 1.2rem; font-weight: 300; margin-top: 10px;">
   Join us in decoding the brain’s intelligence
