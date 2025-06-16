@@ -2,7 +2,7 @@
 layout: default
 title: Publications
 lang: en
-background_image: images/publications.png
+background_image: images/rna_scope.png
 hero_content: |
   <p style="font-size: 1.2rem; font-weight: 300; margin-top: 10px;">
   Sharing discoveries that illuminate the brain.
