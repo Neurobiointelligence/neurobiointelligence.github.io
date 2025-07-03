@@ -56,7 +56,7 @@ Lab Image Banner
 <div style="background-color: #f8f8f8; text-align: center; padding: 4rem 2rem;">
   <h2 style="text-transform: uppercase; color: #4f7ad1;">JOIN US!</h2>
     <p style="max-width: 700px; margin: auto; font-size: 1.3rem; line-height: 1.6; margin-bottom: 2rem;">
-      We are looking for highly energetic and talented students and postdocs with a background in biology, engineering, or physics.</p>
+      We are seeking highly energetic and talented students and postdocs from backgrounds —including biology, physics, engineering, and computer science—who are eager to explore the frontiers of neuroscience with us.</p>
   <a href="{{ '/en/contact.html' | relative_url }}"
     style="display: inline-block; padding: 6px 14px; border: 1px solid #4f7ad1; border-radius: 6px;
             color: #4f7ad1; text-decoration: none; font-weight: bold; font-size: 0.95rem;">
