@@ -26,7 +26,7 @@ hero_content: |
     <p style="max-width: 1400px; margin: auto; font-size: 1.3rem; line-height: 1.6; margin-bottom: 2rem;">
       We seek to discover the biological principles that govern the dynamic interactions of nervous systems underlying intelligent behavior. Our research focuses on how cell-type- and circuit- specific mechanisms work cooperatively to produce adaptive behaviors essential for survival. To address this challenge, we develop innovative methods that integrate molecular, neurophysiological, and computational tools. Through this interdisciplinary approach, we aim to reveal how molecular and cellular interactions are coordinated in living systems to enable information processing, regulation, and goal-directed behavior.
     </p>
-  <a href="{{ '/en/contact.html' | relative_url }}"
+  <a href="{{ '/en/research.html' | relative_url }}"
     style="display: inline-block; padding: 6px 14px; border: 1px solid #4f7ad1; border-radius: 6px;
             color: #4f7ad1; text-decoration: none; font-weight: bold; font-size: 0.95rem;">
     RESEARCH
