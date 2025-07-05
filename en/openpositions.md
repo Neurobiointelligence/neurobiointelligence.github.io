@@ -29,7 +29,7 @@ hero_content: |
     </p>
 
     <p>
-      If you are interested in joining the lab, please send a brief statement of your research interests and your CV to
+      If you are interested in joining the lab, please send your interests to
       <a href="mailto:kanghoon.jung@alleninstitute.org" style="text-decoration: none; color: #4f7ad1; font-weight: bold;">us</a>.
       Informal inquiries are always welcome!
     </p>
