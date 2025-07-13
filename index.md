@@ -1,6 +1,6 @@
 ---
 layout: default
-title: NBI
+title: Integrative dissection of the biological mechanisms underlying adaptive behavior
 lang: en
 background_image: /images/VTA_DA.png
 hero_content: |
@@ -8,7 +8,6 @@ hero_content: |
   Where Biology Meets Intelligence
   </p>
 ---
-
 <!-- <section class="content-section">
 
   <div class="container">
