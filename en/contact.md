@@ -23,7 +23,7 @@ hero_content: |
       <p>(61005) 광주광역시 북구 첨단과기로 123</p>
     <!-- Email icon -->
       <p>
-        <a href="mailto:kanghoon.jung@alleninstitute.org" style="font-size: 1.1rem; text-decoration: none; color: #4f7ad1;">
+        <a href="mailto:kjung@gist.ac.kr" style="font-size: 1.1rem; text-decoration: none; color: #4f7ad1;">
           ✉️ Email us
         </a>
       </p>

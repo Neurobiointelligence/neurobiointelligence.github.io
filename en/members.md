@@ -31,7 +31,7 @@ hero_content: |
             <a href="https://scholar.google.com/citations?user=EXAMPLE" target="_blank">[Google Scholar]</a>
           </p>
           <p>
-            <a href="mailto:kanghoon.jung@alleninstitute.org">kanghoon.jung@alleninstitute.org</a>
+            <a href="mailto:kjung@gist.ac.kr">kjung@gist.ac.kr</a>
           </p>
         </div>
       </div>
@@ -41,7 +41,7 @@ hero_content: |
       <div class="member-profile">
         <img src="/members/SoohyunK_photo.jpg" alt="Soohyun Kim">
         <div class="member-info">
-          <p>M.S. Student</p>
+          <p>Graduate Student</p>
           <p>B.S., Department of Microbiology & Molecular Biology, Chungnam National University</p>
           <p>
             <a href="https://github.com/shkimbio" target="_blank" aria-label="GitHub">

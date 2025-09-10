@@ -27,7 +27,7 @@ hero_content: |
     </p>
     <p>
       If you are interested in joining the lab, please send your interests to
-      <a href="mailto:jeongkh@gmail.com" style="text-decoration: none; color: #4f7ad1; font-weight: bold;">US</a>.
+      <a href="mailto:kjung@gist.ac.kr" style="text-decoration: none; color: #4f7ad1; font-weight: bold;">US</a>.
       Informal inquiries are always welcome!
     </p>
   </div>
@@ -62,7 +62,7 @@ hero_content: |
     <h3 style="font-size: 1rem; margin-top: 30px;">지원 방법</h3>
     <p style="font-size: 0.9rem; line-height: 1.7;">
       자기소개서(간단한 관심 연구 주제과 연구 경험 포함)와 함께
-      <a href="mailto:jeongkh@gmail.com" style="text-decoration: none; color: #4f7ad1; font-weight: bold;">이메일</a>로 지원해주세요.
+      <a href="mailto:kjung@gist.ac.kr" style="text-decoration: none; color: #4f7ad1; font-weight: bold;">이메일</a>로 지원해주세요.
     </p>
     <h3 style="font-size: 1rem; margin-top: 30px;">연구실이 제공하는 특별한 기회들</h3>
     <ul style="line-height: 1.7; font-size: 0.9rem;">
