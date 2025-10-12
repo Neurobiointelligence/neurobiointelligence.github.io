@@ -54,6 +54,14 @@ hero_content: |
       </div>
 </div>
 </div>
+<div class="image-block">
+  <h3>‘시냅샷 기술’로 기억, 인지 과정 실시간 관찰</h3>
+  <a class="image-link" href="https://www.munhwa.com/article/11407396" target="_blank" rel="noopener" aria-label="Open related news article">
+    <img src="/images/Synapshot.png" alt="Illustration related to Synapshot study" loading="lazy" />
+  </a>
+</div>
+
+
 <div class="pub">
 <img alt="" src="/path/to/thumbnail.jpg"/>
 <div class="pub-content">
