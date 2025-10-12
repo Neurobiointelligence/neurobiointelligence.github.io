@@ -18,8 +18,6 @@ hero_content: |
 <a href="https://www.nature.com/articles/s41593-024-01770-9" target="_blank">
           Dopamine-mediated formation of a memory module in the nucleus accumbens for goal-directed navigation
         </a>
-</div>
-<div class="pub-authors">
 <strong>Jung K</strong>*, Krüssel S, Yoo S, An M, Burke B, Schappaugh N, Choi Y, Gu Z, Blackshaw S, Costa RM, Kwon HB*.
       </div>
 <div class="pub-journal">
@@ -29,7 +27,14 @@ hero_content: |
         This study demonstrates how dopamine signaling in the nucleus accumbens forms a memory module that supports goal-directed navigation.
       </div>
 </div>
+<div class="video-block">
+  <h3>목적지향적 탐색을 위한 도파민 매개 기억 모듈의 형성</h3>
+  <div class="responsive-iframe">
+    <iframe src="https://www.youtube.com/embed/aK_aa42tD0s?start=60" title="Related presentation" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 </div>
+</div>
+
 <div class="pub">
 <img alt="" src="/path/to/thumbnail.jpg"/>
 <div class="pub-content">
@@ -201,6 +206,13 @@ hero_content: |
       </div>
 </div>
 </div>
+<div class="video-block">
+  <h3>광유전학 기반 세포 활성 신경세포 추적 및 제어 기술 (iTango)</h3>
+  <div class="responsive-iframe">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JqFkkjCm1PY?si=clXwK1CtuzeAQceE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</div>
+
 <div class="pub">
 <img alt="" src="/path/to/thumbnail.jpg"/>
 <div class="pub-content">
@@ -220,6 +232,15 @@ hero_content: |
       </div>
 </div>
 </div>
+<div class="video-block">
+  <h3>광유전학 기반 GPCR 활성 신경세포 추적 및 제어 기술 (iTango)</h3>
+  <div class="responsive-iframe">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/j2Gvzp1A_uA?si=LU-chegdA4ayF7zB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
 <div class="pub">
 <img alt="" src="/path/to/thumbnail.jpg"/>
 <div class="pub-content">
