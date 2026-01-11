@@ -54,5 +54,41 @@ hero_content: |
         </div>
       </div>
     </div>
+    <div class="member-entry">
+      <h2>Suhyeon Oh</h2>
+      <div class="member-profile">
+        <img src="/members/SuhyeonOh_photo.jpg" alt="Suhyeon Oh">
+        <div class="member-info">
+          <p>Incoming Graduate Student</p>
+          <p>B.S., Department of Biological Sciences and Technology, Chonnam National University</p>
+          <p>
+            <a href="https://github.com/SuhyeonOhbio" target="_blank" aria-label="GitHub" alt='NA'>
+              <i class="fab fa-github fa-lg"></i> GitHub
+            </a>
+          </p>
+          <p>
+            <a href="mailto:chris010321@gmail.com">chris010321@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="member-entry">
+      <h2>Youngbeom Huh</h2>
+      <div class="member-profile">
+        <img src="/members/Youngbeom Huh_photo.jpg" alt="Youngbeom Huh">
+        <div class="member-info">
+          <p>Incoming Graduate Student</p>
+          <p>B.S., Department of Life Sciences, GIST</p>
+          <p>
+            <a href="https://github.com/shkimbio" target="_blank" aria-label="GitHub" alt='NA'>
+              <i class="fab fa-github fa-lg"></i> GitHub
+            </a>
+          </p>
+          <p>
+            <a href="mailto:yboum813@gm.gist.ac.kr">yboum813@gm.gist.ac.kr</a>
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
