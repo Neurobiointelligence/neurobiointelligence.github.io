@@ -49,7 +49,7 @@ hero_content: |
             </a>
           </p>
           <p>
-            <a href="mailto:soohyun.k.bio@gmail.com">soohyun.k.bio@gmail.com</a>
+            <a href="mailto:kimsoohyun@gm.gist.ac.kr">kimsoohyun@gm.gist.ac.kr</a>
           </p>
         </div>
       </div>

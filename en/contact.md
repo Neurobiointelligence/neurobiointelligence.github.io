@@ -14,12 +14,12 @@ hero_content: |
     <!-- LEFT: Contact info -->
     <div style="flex: 1; min-width: 250px;">
       <p style="font-size: 1.3rem; font-weight: bold; color: #4f7ad1"><strong>KJung Lab @ GIST</strong></p>
-      <p>Department of Life Sciences</p>
+      <p>Department of Life Sciences 218-219</p>
       <p>Gwangju Institute of Science and Technology (GIST)</p>
       <p>123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, Republic of Korea</p>    
     <!-- 공간 추가 -->
     <div style="height: 1.5rem;"></div>
-      <p>광주과학기술원(GIST) 생명과학과</p>
+      <p>광주과학기술원(GIST) 생명과학과 218-219</p>
       <p>(61005) 광주광역시 북구 첨단과기로 123</p>
     <!-- Email icon -->
       <p>
