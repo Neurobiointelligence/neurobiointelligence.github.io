@@ -55,14 +55,14 @@ hero_content: |
       </div>
     </div>
     <div class="member-entry">
-      <h2>Suhyeon Oh</h2>
+      <h2>SUHYEON OH</h2>
       <div class="member-profile">
-        <img src="/members/SuhyeonOh_photo.jpg" alt="Suhyeon Oh">
+        <img src="/members/SuHyeonOh_photo.jpg" alt="SuHyeon Oh">
         <div class="member-info">
           <p>Incoming Graduate Student</p>
           <p>B.S., Department of Biological Sciences and Technology, Chonnam National University</p>
           <p>
-            <a href="https://github.com/SuhyeonOhbio" target="_blank" aria-label="GitHub" alt='NA'>
+            <a href="https://github.com/chris010321" target="_blank" aria-label="GitHub" alt='NA'>
               <i class="fab fa-github fa-lg"></i> GitHub
             </a>
           </p>
@@ -73,7 +73,7 @@ hero_content: |
       </div>
     </div>
     <div class="member-entry">
-      <h2>Youngbeom Huh</h2>
+      <h2>YOUNGBEOM HUH</h2>
       <div class="member-profile">
         <img src="/members/YoungbeomH_photo.jpg" alt="Youngbeom Huh">
         <div class="member-info">
@@ -96,11 +96,11 @@ hero_content: |
       <div class="member-info">
         <ul>
           <li>SoYeon Jang - Chungnam National University</li>
-          <li>Eunkyu Kim - Sungkyunkwan University</li>
+          <li>EunGyu Kim - Sungkyunkwan University</li>
           <li>Huijun Kim - GIST</li>
-          <li>Jeonghyeon Lee - Chonnam National University</li>
+          <li>JeongHyeon Lee - Chonnam National University</li>
           <li>Seong-Hun Lee - Keimyung University</li>
-          <li>Yubin Lee - Chung-Ang University</li>
+          <li>Yoobin Lee - Chung-Ang University</li>
           <li>Jaewon Park - GIST</li>
           <li>Yongtaek Woo - GIST</li>
         </ul>
