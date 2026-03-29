@@ -95,6 +95,7 @@ hero_content: |
       <h2>Interns 2025-2026</h2>
       <div class="member-info">
         <ul>
+          <li>Eunji Han - GIST</li>
           <li>SoYeon Jang - Chungnam National University</li>
           <li>EunGyu Kim - Sungkyunkwan University</li>
           <li>Huijun Kim - GIST</li>
