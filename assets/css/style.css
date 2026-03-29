@@ -61,6 +61,24 @@ body {
   font-size: 1.2rem;
 }
 
+.hero-nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-nav .instagram-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-nav .instagram-link svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  fill: currentColor;
+}
+
 .hero-nav a:hover {
   text-decoration: underline;
   color: #eeeeee;
