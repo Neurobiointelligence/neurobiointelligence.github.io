@@ -3,36 +3,62 @@
   <div class="hero-overlay">
 
     <!-- 상단 로고 및 내비게이션 -->
-    <div class="hero-topbar">      
+    <div class="hero-topbar">
       <!-- 로고 및 이름 -->
       <a class="hero-logo" href="{{ '/' | relative_url }}">
-        <img src="{{ '/images/Lab_logo_242424_w.png' | relative_url }}" alt="Lab Logo">        
-        <span class="hero-logo-text" style="font-family: 'Source Sans Pro', sans-serif; font-size: 1.5rem; font-weight: 300; display: block; line-height: 1.5;">                    
+        <img src="{{ '/images/Lab_logo_242424_w.png' | relative_url }}" alt="Lab Logo">
+        <span class="hero-logo-text" style="font-family: 'Source Sans Pro', sans-serif; font-size: 1.5rem; font-weight: 300; display: block; line-height: 1.5;">
             <strong>KJUNG LAB <br>for Neurobiological Intelligence</strong>
         </span>
       </a>
 
-      <!-- 내비게이션 메뉴 -->
+      <!-- 햄버거 버튼 (모바일 전용) -->
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg class="icon-menu" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+        <svg class="icon-close" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="4" x2="20" y2="20"/>
+          <line x1="20" y1="4" x2="4" y2="20"/>
+        </svg>
+      </button>
 
-      <nav class="hero-nav">
+      <!-- 내비게이션 메뉴 -->
+      <nav class="hero-nav" id="hero-nav">
         <a href="{{ '/en/members' | relative_url }}">MEMBERS</a>
         <a href="{{ '/en/research' | relative_url }}">RESEARCH</a>
         <a href="{{ '/en/publications' | relative_url }}">PUBLICATIONS</a>
         <a href="{{ '/en/news' | relative_url }}">NEWS</a>
         <a href="{{ '/en/openpositions' | relative_url }}">OPEN POSITIONS</a>
         <a href="{{ '/en/contact' | relative_url }}">CONTACT</a>
-        <a
-          class="instagram-link"
-          href="https://www.instagram.com/kjunglab/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="KJUNG LAB Instagram"
-          title="KJUNG LAB Instagram"
-        >
-          <svg viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false">
-            <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zm10.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
-          </svg>
-        </a>
+        <div class="nav-social">
+          <a
+            class="instagram-link"
+            href="https://github.com/Neurobiointelligence"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Neurobiointelligence GitHub"
+            title="Neurobiointelligence GitHub"
+          >
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+            </svg>
+          </a>
+          <a
+            class="instagram-link"
+            href="https://www.instagram.com/kjunglab/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="KJUNG LAB Instagram"
+            title="KJUNG LAB Instagram"
+          >
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false">
+              <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zm10.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+            </svg>
+          </a>
+        </div>
       </nav>
     </div>
 
@@ -46,3 +72,23 @@
 
   </div>
 </header>
+
+<script>
+  (function () {
+    var btn = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('hero-nav');
+    if (!btn || !nav) return;
+    btn.addEventListener('click', function () {
+      var isOpen = nav.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      btn.classList.toggle('is-open', isOpen);
+    });
+    nav.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        nav.classList.remove('is-open');
+        btn.setAttribute('aria-expanded', 'false');
+        btn.classList.remove('is-open');
+      });
+    });
+  })();
+</script>

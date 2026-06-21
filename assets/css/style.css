@@ -84,6 +84,34 @@ body {
   color: #eeeeee;
 }
 
+/* Social icon group (GitHub + Instagram) */
+.hero-nav .nav-social {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  gap: 18px;
+}
+
+.hero-nav .nav-social a {
+  margin-left: 0;
+}
+
+/* Hamburger toggle button — hidden on desktop */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  color: white;
+  line-height: 0;
+  flex-shrink: 0;
+}
+
+.nav-toggle .icon-close { display: none; }
+.nav-toggle.is-open .icon-menu { display: none; }
+.nav-toggle.is-open .icon-close { display: block; }
+
 .hero-title {
   text-align: left;
   padding: 40px 60px;
@@ -111,19 +139,93 @@ body {
 }
 
 @media (max-width: 768px) {
-  .hero-topbar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
+  /* Hero: allow auto-expand when nav opens */
+  .hero-header {
+    height: auto;
+    min-height: 50vh;
   }
 
+  .hero-overlay {
+    height: auto;
+    min-height: 50vh;
+  }
+
+  /* Topbar: logo left, hamburger right */
+  .hero-topbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 18px 0 18px;
+    gap: 0;
+  }
+
+  /* Smaller logo on mobile */
+  .hero-logo img {
+    height: 48px;
+  }
+
+  /* Show hamburger button */
+  .nav-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Nav: collapsed by default, revealed on toggle */
+  .hero-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.78);
+    padding: 8px 18px 18px;
+    margin-top: 12px;
+    gap: 0;
+  }
+
+  .hero-nav.is-open {
+    display: flex;
+  }
+
+  /* Nav links: stacked, separated by subtle dividers */
   .hero-nav a {
     margin-left: 0;
-    margin-right: 15px;
+    margin-right: 0;
+    font-size: 1rem;
+    padding: 11px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  /* Social icons: row at bottom of dropdown */
+  .hero-nav .nav-social {
+    margin-left: 0;
+    gap: 20px;
+    padding: 12px 0 4px;
+  }
+
+  .hero-nav .nav-social a {
+    padding: 0;
+    border-bottom: none;
+  }
+
+  .hero-title {
+    padding: 24px 20px;
   }
 
   .hero-title h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* Extra-small screens */
+@media (max-width: 480px) {
+  .hero-logo-text {
+    font-size: 1.05rem !important;
+  }
+
+  .hero-logo img {
+    height: 40px;
+    margin-right: 10px;
   }
 }
 
@@ -233,16 +335,65 @@ body {
 
   .member-profile img {
     margin-bottom: 10px;
+    width: 140px;
   }
 
   .member-entry h2 {
     text-align: center;
   }
 
+  .member-info {
+    min-width: unset;
+    width: 100%;
+  }
+
+  .member-info p {
+    font-size: 1.1rem;
+  }
+
+  .member-info h3 {
+    font-size: 1.3rem;
+  }
+
   .member-info a {
     display: inline-block;
     margin-top: 5px;
   }
+}
+
+/* Research page: publication list under each topic */
+.research-pub-list {
+  margin: 1.2rem 0 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #dce6f5;
+}
+
+.research-pub-list li {
+  padding: 0.65rem 0;
+  border-bottom: 1px solid #dce6f5;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.research-pub-list li a {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #1b3e85;
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+.research-pub-list li a:hover {
+  text-decoration: underline;
+  color: #4f7ad1;
+}
+
+.research-pub-list li span {
+  font-size: 0.82rem;
+  color: #5e7099;
+  line-height: 1.4;
 }
 
 .news {
