@@ -6,8 +6,6 @@
   <title>{{ page.title }} | KJung Lab</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-<header class="hero-header" style="background-image: url('{{ page.background_image | relative_url }}');">
-
 <body>
   {% include header.html %}
 
@@ -16,6 +14,169 @@
   </main>
 
   {% include footer.html %}
+
+  <!-- ── Cookie Consent Banner ── -->
+  <div id="nbi-cookie-banner">
+    <div class="nbi-cookie-inner">
+      <p>이 사이트는 방문자 통계 수집을 위한 쿠키를 사용합니다.</p>
+      <div class="nbi-cookie-btns">
+        <button onclick="nbiAccept()">수락</button>
+        <button class="nbi-btn-decline" onclick="nbiDecline()">거부</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Admin Panel ── -->
+  <div id="nbi-admin-overlay" onclick="nbiCloseAdmin()"></div>
+  <div id="nbi-admin-panel">
+
+    <!-- 로그인 화면 -->
+    <div id="nbi-admin-login">
+      <h3>관리자 로그인</h3>
+      <input id="nbi-admin-pw" type="password" placeholder="비밀번호" autocomplete="current-password">
+      <button onclick="nbiAdminLogin()">로그인</button>
+      <p id="nbi-login-error">비밀번호가 올바르지 않습니다.</p>
+    </div>
+
+    <!-- 대시보드 화면 -->
+    <div id="nbi-admin-dashboard">
+      <div class="nbi-dash-header">
+        <h3>NBI 대시보드</h3>
+        <button class="nbi-close-btn" onclick="nbiCloseAdmin()">✕</button>
+      </div>
+      <div class="nbi-stats">
+        <div class="nbi-stat-card">
+          <span id="nbi-total-visits">—</span>
+          <label>총 방문수</label>
+        </div>
+        <div class="nbi-stat-card">
+          <span id="nbi-today-visits">—</span>
+          <label>오늘 방문수</label>
+        </div>
+      </div>
+      <div class="nbi-cookie-info">
+        <strong>쿠키 동의 (현재 브라우저):</strong>
+        <span id="nbi-cookie-status">—</span>
+      </div>
+      <button class="nbi-logout-btn" onclick="nbiAdminLogout()">로그아웃</button>
+    </div>
+
+  </div>
+
+  <script>
+  (function () {
+    // ── 비밀번호 설정 ──────────────────────────────────────────────
+    // 변경 방법: 브라우저 콘솔에서 btoa("원하는비밀번호") 실행 후 아래 값 교체
+    // 기본 비밀번호: admin1234
+    var PW_HASH = "YWRtaW4xMjM0";
+
+    var NS   = "nbi-lab-2025";
+    var TODAY = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+
+    // ── Cookie Consent ────────────────────────────────────────────
+    var consent = localStorage.getItem("nbi-consent");
+    if (!consent) {
+      document.getElementById("nbi-cookie-banner").style.display = "block";
+    } else if (consent === "accepted") {
+      nbiTrackVisit();
+    }
+
+    window.nbiAccept = function () {
+      localStorage.setItem("nbi-consent", "accepted");
+      document.getElementById("nbi-cookie-banner").style.display = "none";
+      nbiTrackVisit();
+    };
+
+    window.nbiDecline = function () {
+      localStorage.setItem("nbi-consent", "declined");
+      document.getElementById("nbi-cookie-banner").style.display = "none";
+    };
+
+    function nbiTrackVisit() {
+      if (sessionStorage.getItem("nbi-tracked")) return;
+      sessionStorage.setItem("nbi-tracked", "1");
+      var base = "https://api.counterapi.dev/v1/" + NS;
+      fetch(base + "/total/up").catch(function () {});
+      fetch(base + "/day-" + TODAY + "/up").catch(function () {});
+    }
+
+    // ── Admin Panel ───────────────────────────────────────────────
+    // 단축키: Ctrl + Shift + A
+    document.addEventListener("keydown", function (e) {
+      if (e.ctrlKey && e.shiftKey && e.code === "KeyA") {
+        e.preventDefault();
+        nbiOpenAdmin();
+      }
+    });
+
+    window.nbiOpenAdmin = function () {
+      document.getElementById("nbi-admin-overlay").style.display = "block";
+      document.getElementById("nbi-admin-panel").style.display = "flex";
+      if (sessionStorage.getItem("nbi-admin") === "ok") {
+        nbiShowDashboard();
+      }
+    };
+
+    window.nbiCloseAdmin = function () {
+      document.getElementById("nbi-admin-overlay").style.display = "none";
+      document.getElementById("nbi-admin-panel").style.display = "none";
+    };
+
+    window.nbiAdminLogin = function () {
+      var pw = document.getElementById("nbi-admin-pw").value;
+      if (btoa(pw) === PW_HASH) {
+        sessionStorage.setItem("nbi-admin", "ok");
+        document.getElementById("nbi-login-error").style.display = "none";
+        nbiShowDashboard();
+      } else {
+        document.getElementById("nbi-login-error").style.display = "block";
+      }
+    };
+
+    window.nbiAdminLogout = function () {
+      sessionStorage.removeItem("nbi-admin");
+      document.getElementById("nbi-admin-dashboard").style.display = "none";
+      document.getElementById("nbi-admin-login").style.display = "flex";
+      document.getElementById("nbi-admin-pw").value = "";
+    };
+
+    function nbiShowDashboard() {
+      document.getElementById("nbi-admin-login").style.display = "none";
+      document.getElementById("nbi-admin-dashboard").style.display = "flex";
+
+      // 쿠키 동의 현황
+      var c = localStorage.getItem("nbi-consent");
+      document.getElementById("nbi-cookie-status").textContent =
+        c === "accepted" ? "✅ 수락" : c === "declined" ? "❌ 거부" : "⬜ 미설정";
+
+      // 방문자 통계
+      var base = "https://api.counterapi.dev/v1/" + NS;
+      fetch(base + "/total")
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          document.getElementById("nbi-total-visits").textContent =
+            (d.count != null ? d.count : "—").toLocaleString();
+        })
+        .catch(function () {
+          document.getElementById("nbi-total-visits").textContent = "N/A";
+        });
+
+      fetch(base + "/day-" + TODAY)
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          document.getElementById("nbi-today-visits").textContent =
+            (d.count != null ? d.count : "0").toLocaleString();
+        })
+        .catch(function () {
+          document.getElementById("nbi-today-visits").textContent = "N/A";
+        });
+    }
+
+    document.getElementById("nbi-admin-pw").addEventListener("keydown", function (e) {
+      if (e.key === "Enter") nbiAdminLogin();
+    });
+  })();
+  </script>
 
 </body>
 </html>

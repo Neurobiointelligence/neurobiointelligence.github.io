@@ -568,3 +568,286 @@ body {
   .image-block { padding:0.9rem 0.9rem 1.2rem; }
   .image-block h3 { font-size:1.15rem; }
 }
+
+/* ── Footer ─────────────────────────────────────────────────────── */
+footer {
+  font-family: 'Source Sans Pro', sans-serif;
+  border-top: 1px solid #ddd;
+}
+
+.footer-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 28px 40px 16px;
+  border-bottom: 1px solid #ddd;
+  background-color: #ffffff;
+}
+
+.footer-logos img {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(20%);
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+.footer-logos img:hover {
+  opacity: 1;
+}
+
+.footer-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 40px;
+  background-color: #f8f8f8;
+}
+
+.footer-lab-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #222;
+  white-space: nowrap;
+}
+
+.footer-address {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.footer-copyright {
+  background-color: #f0f0f0;
+  color: #666;
+  text-align: center;
+  font-size: 0.82rem;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+  .footer-logos {
+    gap: 16px;
+    padding: 20px 16px 14px;
+  }
+
+  .footer-logos img {
+    height: 40px;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 20px;
+    text-align: center;
+  }
+
+  .footer-lab-name {
+    white-space: normal;
+    text-align: center;
+  }
+}
+
+/* ── Cookie Consent Banner ───────────────────────────────────────── */
+#nbi-cookie-banner {
+  display: none;
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  padding: 14px 24px;
+  z-index: 9998;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
+
+.nbi-cookie-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.nbi-cookie-inner p {
+  margin: 0;
+  font-size: 0.88rem;
+  color: #444;
+}
+
+.nbi-cookie-btns {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.nbi-cookie-btns button {
+  padding: 6px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: #4f7ad1;
+  color: #fff;
+}
+
+.nbi-cookie-btns .nbi-btn-decline {
+  background: #e8e8e8;
+  color: #555;
+}
+
+/* ── Admin Panel ─────────────────────────────────────────────────── */
+#nbi-admin-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 9999;
+}
+
+#nbi-admin-panel {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 14px;
+  padding: 28px 28px 24px;
+  z-index: 10000;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.22);
+  width: 90%;
+  max-width: 340px;
+}
+
+#nbi-admin-login {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#nbi-admin-login h3 {
+  margin: 0 0 4px;
+  color: #1b3e85;
+  font-size: 1.05rem;
+}
+
+#nbi-admin-pw {
+  padding: 9px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  outline: none;
+  font-family: inherit;
+}
+
+#nbi-admin-pw:focus {
+  border-color: #4f7ad1;
+  box-shadow: 0 0 0 2px rgba(79,122,209,0.15);
+}
+
+#nbi-admin-login > button {
+  padding: 9px;
+  background: #4f7ad1;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+#nbi-login-error {
+  display: none;
+  color: #c0392b;
+  font-size: 0.82rem;
+  margin: 0;
+}
+
+#nbi-admin-dashboard {
+  display: none;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.nbi-dash-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nbi-dash-header h3 {
+  margin: 0;
+  color: #1b3e85;
+  font-size: 1.05rem;
+}
+
+.nbi-close-btn {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #aaa;
+  line-height: 1;
+  padding: 2px 4px;
+}
+
+.nbi-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.nbi-stat-card {
+  background: #f0f5ff;
+  border-radius: 8px;
+  padding: 14px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.nbi-stat-card span {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #1b3e85;
+  line-height: 1;
+}
+
+.nbi-stat-card label {
+  font-size: 0.75rem;
+  color: #5e7099;
+}
+
+.nbi-cookie-info {
+  background: #f8f8f8;
+  border-radius: 6px;
+  padding: 11px 14px;
+  font-size: 0.84rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.nbi-logout-btn {
+  padding: 8px;
+  background: #eee;
+  color: #666;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.84rem;
+}
+
+.nbi-logout-btn:hover {
+  background: #e0e0e0;
+}
