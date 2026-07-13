@@ -16,6 +16,9 @@ hero_content: |
       <strong>JUNE</strong> | GIST InnoCORE 출연연 연계형 사업 선정
     </p>
     <p>
+      <strong>JUNE</strong> | 기초연구실 (BRL) 지원 사업 선정
+    </p>
+    <p>
       <strong>MAY</strong> | Congrats to 한은지 학생 (인턴) on being selected for the <strong>G-FIRST program</strong>!
     </p>
     <p>
