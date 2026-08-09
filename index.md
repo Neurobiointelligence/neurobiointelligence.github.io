@@ -22,8 +22,8 @@ hero_content: |
     <h1 style="font-size: 2rem; font-weight: 600; color: #4f7ad1; margin-bottom: 1.5rem;">
       A NEUROBIOLOGICAL INTELLIGENCE LAB 
     </h1>
-    <p style="max-width: 1400px; margin: auto; font-size: 1.3rem; line-height: 1.6; margin-bottom: 2rem;">
-      We seek to discover the biological principles that govern the dynamic interactions of nervous systems underlying intelligent behavior. Our research focuses on how cell-type- and circuit- specific mechanisms work cooperatively to produce adaptive behaviors essential for survival. To address this challenge, we develop innovative methods that integrate molecular, neurophysiological, and computational tools. Through this interdisciplinary approach, we aim to reveal how molecular and cellular interactions are coordinated in living systems to enable information processing, regulation, and goal-directed behavior.
+    <p style="max-width: 1400px; margin: auto; font-size: 1.3rem; line-height: 1.6; margin-bottom: 2rem; text-align: justify;">
+      We seek to discover the biological principles that govern the dynamic interactions of nervous systems underlying intelligent behavior and its breakpoints in neuropsychiatric disease. Our research focuses on how cell-type- and circuit- specific mechanisms work cooperatively to produce adaptive behaviors essential for survival. To address this challenge, we develop innovative methods that integrate molecular, neurophysiological, and computational tools, working across animal and computational models with a broad, multidisciplinary approach. Through this integrative approach, we aim to reveal how molecular and cellular interactions are coordinated in living systems to enable information processing, regulation, and goal-directed behavior, with the ultimate goal of translating these principles into insights for human intelligence and health.
     </p>
   <a href="{{ '/en/research.html' | relative_url }}"
     style="display: inline-block; padding: 6px 14px; border: 1px solid #4f7ad1; border-radius: 6px;
@@ -103,8 +103,8 @@ hero_content: |
 <!-- Join Us Section -->
 <div style="background-color: #f8f8f8; text-align: center; padding: 4rem 2rem;">
   <h2 style="text-transform: uppercase; color: #4f7ad1;">JOIN US!</h2>
-    <p style="max-width: 700px; margin: auto; font-size: 1.3rem; line-height: 1.6; margin-bottom: 2rem;">
-      We are seeking highly energetic and talented students and postdocs from backgrounds —including biology, physics, engineering, and computer science—who are eager to explore the frontiers of neuroscience with us.</p>
+    <p style="max-width: 1000px; margin: auto; font-size: 1.3rem; line-height: 1.6; margin-bottom: 2rem; text-align: justify;">
+      We are seeking highly energetic and talented students and postdocs from backgrounds including biology, physics, engineering, and computer science who are eager to explore the frontiers of neuroscience with us.</p>
   <a href="{{ '/en/openpositions.html' | relative_url }}"
     style="display: inline-block; padding: 6px 14px; border: 1px solid #4f7ad1; border-radius: 6px;
             color: #4f7ad1; text-decoration: none; font-weight: bold; font-size: 0.95rem;">

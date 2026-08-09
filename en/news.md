@@ -13,6 +13,12 @@ hero_content: |
   <div class="container news">
     <h2 style="text-align: center;">2026</h2>
     <p>
+      <strong>AUGUST</strong> | Welcome 조용준 박사 to NBI
+    </p>
+    <p>
+      <strong>JULY</strong> | Welcome Summer Inters to NBI: 김소연, 변다인, 이준오, 류지혜, 안세은
+    </p>
+    <p>
       <strong>JUNE</strong> | GIST InnoCORE 출연연 연계형 사업 선정
     </p>
     <p>

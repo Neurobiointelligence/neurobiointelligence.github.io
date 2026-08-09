@@ -140,5 +140,15 @@ hero_content: |
       </div>
     </div>
 
+    <!-- Funding Support -->
+    <div style="margin-top: 3rem; padding-top: 3rem; border-top: 1px solid #e0e0e0; text-align: center;">
+      <h3>Our research is supported by</h3>
+      <div style="display: flex; flex-wrap: wrap; gap: 3rem; justify-content: center; align-items: center; margin-top: 2rem;">
+        <img src="/images/research/gist_logo.jpg" alt="GIST" style="height: 48px; width: auto;" />
+        <img src="/images/research/NRF_logo.svg" alt="NRF" style="height: 48px; width: auto;" />
+        <img src="/images/research/NFEC_logo.JPG" alt="NFEC" style="height: 80px; width: auto;" />
+      </div>
+    </div>
+
   </div>
 </section>
