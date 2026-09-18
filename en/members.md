@@ -146,7 +146,7 @@ hero_content: |
       <div class="member-profile">
         <img src="/members/Gihwan_Choi_photo.jpg" alt="Gihwan Choi">
         <div class="member-info">
-          <p>Incoming Graduate Student</p>
+          <p>Graduate Student, Department of Integrative Neuroscience and Physiology, GIST</p>          
           <p>B.S., Department of Biological Sciences and Technology, Chonnam National University</p>
         </div>
       </div>
@@ -161,8 +161,6 @@ hero_content: |
       </div>
       </div>
     </div>
-
-
     <div class="member-entry">
       <h2>Current Interns</h2>
       <div class="member-info">
@@ -173,7 +171,7 @@ hero_content: |
           <li>Juno Lee - Chosun University (2026 Summer-present)</li>
           <li>Seong-Hun Lee - Keimyung University (2026 Winter-present)</li>
           <li>Jaewon Park - GIST (G-Surf, 2025 Winter-present)</li>
-          <li>Tae Woo Park - Jeonbuk National University (2026 Fall-present)</li>
+          <li>Taewoo Park - Jeonbuk National University (2026 Fall-present)</li>
         </ul>
       </div>
     </div>
