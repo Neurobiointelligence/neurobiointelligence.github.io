@@ -95,6 +95,20 @@ hero_content: |
       </figure>
       <div class="pub-caption">Nature Neuroscience (2024)</div>
     </article>
+    <article class="pub-item">
+      <div class="pub-year">2026.09</div>
+      <div class="pub-title">
+        <a href="https://www.nature.com/articles/s41586-026-11026-0" target="_blank" style="text-decoration: none; color: inherit;">
+          청반 노르아드레날린 뉴런의 지형적 구조와 기능<br/><em>Topographic structure and function of locus coeruleus noradrenaline neurons</em>
+        </a>
+      </div>
+      <figure>
+        <a href="https://www.nature.com/articles/s41586-026-11026-0" target="_blank" style="text-decoration:none; display:block;" aria-label="View article: Topographic structure and function of locus coeruleus noradrenaline neurons">
+          <img src="/images/Su_Kosillo_Jung_EtAl_2026_Nature.png" alt="Su_Kosillo_Jung_EtAl_2026_Nature" loading="lazy" />
+        </a>
+      </figure>
+      <div class="pub-caption">Nature (2026)</div>
+    </article>
 </div>
   <!-- <p class="pub-note">Scroll horizontally to view more years as the list grows. Add new <code>article.pub-item</code> blocks for future publications.</p> -->  
 </section>

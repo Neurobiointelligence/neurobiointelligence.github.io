@@ -87,6 +87,15 @@ hero_content: |
       </div>
     </div>
     <div class="member-entry">
+      <h2>HEEYOUNG AN</h2>
+      <div class="member-profile">
+        <img src="/members/Heeyoung_An_photo.jpg" alt="Heeyoung An">
+        <div class="member-info">
+          <p>GIST InnoCORE Postdoc</p>
+        </div>
+      </div>
+    </div>
+    <div class="member-entry">
       <h2>SOO-HYUN KIM</h2>
       <div class="member-profile">
         <img src="/members/SoohyunK_photo.jpg" alt="Soohyun Kim">

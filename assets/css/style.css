@@ -591,6 +591,21 @@ body {
   opacity:0;
   transition:opacity .35s ease;
 }
+.image-block figure.image-figure {
+  margin:0;
+}
+.image-block figure.image-figure img {
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:4px;
+}
+.image-block figure.image-figure figcaption {
+  margin-top:0.5rem;
+  font-size:0.8rem;
+  color:#555;
+  line-height:1.5;
+}
 .image-block a.image-link:hover img { transform:scale(1.03); filter:brightness(.92); }
 .image-block a.image-link:hover::after { opacity:1; }
 @media (max-width:400px){

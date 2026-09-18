@@ -15,6 +15,32 @@ hero_content: |
 <img alt="" src="/path/to/thumbnail.jpg"/>
 <div class="pub-content">
 <div class="pub-title">
+<a href="https://www.nature.com/articles/s41586-026-11026-0" target="_blank">
+          Topographic structure and function of locus coeruleus noradrenaline neurons
+        </a>
+</div>
+<div class="pub-authors">
+        Su Z, Kosillo P, <strong>Jung K</strong>, Chen S, Summers MT, Piet A, Hou H, Hagihara KM, &hellip;, Svoboda K, Isogai Y*, Chandrashekar JV*, Cohen JY*.
+      </div>
+<div class="pub-journal">
+        Nature. (2026)
+      </div>
+<div class="pub-summary">
+        This study maps the topographic organization of locus coeruleus noradrenaline neurons, linking single-neuron axonal projections and graded gene expression to cell-body location, and shows that dorsal locus coeruleus neurons projecting to isocortex carry choice-switching and reward-prediction-error signals that support flexible learning.
+      </div>
+</div>
+</div>
+<div class="image-block">
+  <h3>청반 노르아드레날린 뉴런의 전뇌 축삭 투사 지형</h3>
+  <figure class="image-figure">
+    <img src="/images/LC_projection_topography.png" alt="Whole-brain axonal projections of locus coeruleus noradrenaline neurons, colour-coded by ventral-to-dorsal cell-body location" loading="lazy" />
+    <figcaption>Axonal projections of locus coeruleus neurons across the whole brain, colour-coded by the ventral&ndash;dorsal position of their cell bodies. Fig. 1c from Su et al., <em>Nature</em> (2026), <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</figcaption>
+  </figure>
+</div>
+<div class="pub">
+<img alt="" src="/path/to/thumbnail.jpg"/>
+<div class="pub-content">
+<div class="pub-title">
 <a href="https://www.nature.com/articles/s41593-024-01770-9" target="_blank">
           Dopamine-mediated formation of a memory module in the nucleus accumbens for goal-directed navigation
         </a>
