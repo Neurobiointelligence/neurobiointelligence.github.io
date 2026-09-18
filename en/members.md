@@ -175,7 +175,6 @@ hero_content: |
         </ul>
       </div>
     </div>
-
     <div class="member-entry">
       <h2>Past Interns</h2>
       <div class="member-info">
