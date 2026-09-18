@@ -460,7 +460,11 @@ body {
   display:flex;
   gap:40px;
   align-items:flex-start;
-  justify-content:center; /* center the row of cards */
+  /* flex-start first: with overflow-x, plain `center` clips the leading
+     card and makes it unreachable by scrolling. `safe center` keeps the
+     row centred while it fits; browsers without it fall back to start. */
+  justify-content:flex-start;
+  justify-content:safe center;
   overflow-x:auto;
   padding-bottom:10px;
   scrollbar-width:thin;

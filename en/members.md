@@ -76,7 +76,7 @@ hero_content: |
       <div class="member-profile">
         <img src="/members/Yongjoon_Jo_photo.JPG" alt="Yongjoon Jo">
         <div class="member-info">
-          <p>Postdoc</p>
+          <p>Postdoc, Department of Life Sciences, GIST</p>
           <p>Ph.D., Department of Life Sciences, GIST</p>
           <p>
             <a href="https://github.com/YongjoonJo96" target="_blank" aria-label="GitHub">
@@ -91,7 +91,8 @@ hero_content: |
       <div class="member-profile">
         <img src="/members/Heeyoung_An_photo.jpg" alt="Heeyoung An">
         <div class="member-info">
-          <p>GIST InnoCORE Postdoc</p>
+          <p>GIST InnoCORE Postdoc, Department of Life Sciences, GIST</p>
+          <p>Ph.D., KU-KIST Graduate School of Converging Science and Technology</p>
         </div>
       </div>
     </div>
@@ -100,7 +101,7 @@ hero_content: |
       <div class="member-profile">
         <img src="/members/SoohyunK_photo.jpg" alt="Soohyun Kim">
         <div class="member-info">
-          <p>Graduate Student</p>
+          <p>Graduate Student, Department of Life Sciences, GIST</p>
           <p>B.S., Department of Microbiology & Molecular Biology, Chungnam National University</p>
           <p>
             <a href="https://github.com/shkimbio" target="_blank" aria-label="GitHub">
@@ -115,7 +116,7 @@ hero_content: |
       <div class="member-profile">
         <img src="/members/SuHyeonOh_photo.jpg" alt="SuHyeon Oh">
         <div class="member-info">
-          <p>Graduate Student</p>
+          <p>Graduate Student, Department of Life Sciences, GIST</p>
           <p>B.S., Department of Biological Sciences and Technology, Chonnam National University</p>
           <p>
             <a href="https://github.com/chris010321" target="_blank" aria-label="GitHub" alt='NA'>
@@ -130,7 +131,7 @@ hero_content: |
       <div class="member-profile">
         <img src="/members/YoungbeomH_photo.jpg" alt="Youngbeom Huh">
         <div class="member-info">
-          <p>Graduate Student</p>
+          <p>Graduate Student, Department of Life Sciences, GIST</p>
           <p>B.S., Department of Life Sciences, GIST</p>
           <p>
             <a href="https://github.com/Youngboum-Huh" target="_blank" aria-label="GitHub" alt='NA'>
@@ -163,23 +164,33 @@ hero_content: |
 
 
     <div class="member-entry">
-      <h2>Interns</h2>
+      <h2>Current Interns</h2>
+      <div class="member-info">
+        <ul>
+          <li>Eunji Han - GIST (G-First, 2026 Spring-present)</li>
+          <li>Huijun Kim - GIST (G-Surf, 2025 Winter-present)</li>
+          <li>Jong Ho Kim - GIST (2026 Fall-present)</li>
+          <li>Juno Lee - Chosun University (2026 Summer-present)</li>
+          <li>Seong-Hun Lee - Keimyung University (2026 Winter-present)</li>
+          <li>Jaewon Park - GIST (G-Surf, 2025 Winter-present)</li>
+          <li>Tae Woo Park - Jeonbuk National University (2026 Fall-present)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="member-entry">
+      <h2>Past Interns</h2>
       <div class="member-info">
         <ul>
           <li>Grigorii Lavrov - Pirogov Russian National Research Medical University (GIST Global Intern Program, 2026 Summer)</li>
           <li>Dain Byun - Gyeongsang National University (2026 Summer)</li>
           <li>Soyeon Kim - Konkuk University (2026 Summer)</li>
           <li>Se Eun An - Kookmin University (2026 Summer)</li>
-          <li>Juno Lee - Chosun University (2026 Summer)</li>
           <li>Jihye Ryu - Tsinghua University (2026 Summer)</li>
-          <li>Eunji Han - GIST (G-First, 2026 Spring-present)</li>
           <li>SoYeon Jang - Chungnam National University (2026 Winter, 2026 Summer)</li>
           <li>EunGyu Kim - Sungkyunkwan University (2026 Winter)</li>
-          <li>Huijun Kim - GIST (G-Surf, 2025 Winter-present)</li>
           <li>JeongHyeon Lee - Chonnam National University (2026 Winter)</li>
-          <li>Seong-Hun Lee - Keimyung University (2026 Winter-present)</li>
           <li>Yoobin Lee - Chung-Ang University (2026 Winter)</li>
-          <li>Jaewon Park - GIST (G-Surf, 2025 Winter-present)</li>
           <li>Yongtaek Woo - GIST (2026 Winter, Spring)</li>
         </ul>
       </div>

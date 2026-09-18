@@ -13,10 +13,13 @@ hero_content: |
   <div class="container news">
     <h2 style="text-align: center;">2026</h2>
     <p>
+      <strong>SEPTEMBER</strong> | 김수현, 오수현, 허영범, 이성훈 학생 한국뇌신경과학회 <strong>K-BRAIN 2026</strong> 포스터 발표를 성공적으로 마쳤습니다
+    </p>
+    <p>
       <strong>AUGUST</strong> | Welcome 조용준 박사 to NBI
     </p>
     <p>
-      <strong>JULY</strong> | Welcome Summer Inters to NBI: 김소연, 변다인, 이준오, 류지혜, 안세은
+      <strong>JULY</strong> | Welcome Summer Interns to NBI: 김소연, 변다인, 이준오, 류지혜, 안세은
     </p>
     <p>
       <strong>JUNE</strong> | GIST InnoCORE 출연연 연계형 사업 선정
