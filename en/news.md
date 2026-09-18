@@ -16,6 +16,9 @@ hero_content: |
       <strong>SEPTEMBER</strong> | Soo-Hyun Kim, SuHyeon Oh, Youngbeom Huh, and Seong-Hun Lee successfully presented their posters at <strong>K-BRAIN 2026</strong>, the annual meeting of the Korean Society for Brain and Neural Sciences (KSBNS)
     </p>
     <p>
+      <strong>SEPTEMBER</strong> | Welcome 안희영 박사님, 박태우 학생 (인턴), 김종호 학생 (인턴) to NBI
+    </p>
+    <p>
       <strong>AUGUST</strong> | Welcome 조용준 박사 to NBI
     </p>
     <p>
