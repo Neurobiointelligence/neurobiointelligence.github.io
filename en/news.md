@@ -13,7 +13,7 @@ hero_content: |
   <div class="container news">
     <h2 style="text-align: center;">2026</h2>
     <p>
-      <strong>SEPTEMBER</strong> | 김수현, 오수현, 허영범, 이성훈 학생 한국뇌신경과학회 <strong>K-BRAIN 2026</strong> 포스터 발표를 성공적으로 마쳤습니다
+      <strong>SEPTEMBER</strong> | Soo-Hyun Kim, SuHyeon Oh, Youngbeom Huh, and Seong-Hun Lee successfully presented their posters at <strong>K-BRAIN 2026</strong>, the annual meeting of the Korean Society for Brain and Neural Sciences (KSBNS)
     </p>
     <p>
       <strong>AUGUST</strong> | Welcome 조용준 박사 to NBI
